@@ -1,0 +1,109 @@
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; /* Not Times New Roman */
+    line-height: 1.6;
+    margin: 0 auto;
+    max-width: 960px; /* Max-width formatting */
+    padding: 20px;
+    background-color: #e0f2f7; /* Not white background */
+    color: #2c3e50; /* Not black text */
+}
+
+header {
+    background: #34495e;
+    color: #ecf0f1;
+    padding: 1rem 0;
+    text-align: center;
+    margin-bottom: 20px; /* Margins */
+}
+
+header h1 {
+    margin: 0;
+    font-size: 2.5em;
+}
+
+nav ul {
+    padding: 0;
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+nav a {
+    color: #ecf0f1;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+nav a:hover {
+    text-decoration: underline;
+}
+
+main {
+    padding: 20px;
+    background: #ffffff;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+    margin-bottom: 20px; /* Margins */
+}
+
+h2 {
+    color: #2980b9;
+    text-align: left; /* Ensure non-centered */
+    margin-bottom: 15px;
+    border-bottom: 2px solid #2980b9;
+    padding-bottom: 5px;
+}
+
+h3 {
+    color: #34495e;
+    text-align: left; /* Ensure non-centered */
+    margin-top: 20px;
+}
+
+p, ul, ol {
+    text-align: left; /* Non-centered paragraphs or bullets */
+    margin-bottom: 1em;
+    padding-left: 0; /* Remove default padding for lists */
+}
+
+ul li, ol li {
+    margin-bottom: 0.5em;
+    list-style-position: inside; /* Keep bullets/numbers inside */
+}
+
+figure {
+    margin: 20px 0;
+    text-align: center;
+}
+
+figcaption {
+    font-style: italic;
+    color: #555;
+    margin-top: 5px;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 5px;
+}
+
+hr {
+    border: 0;
+    height: 1px;
+    background-image: linear-gradient(to right, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0));
+    margin: 30px 0;
+}
+
+footer {
+    text-align: center;
+    padding: 20px;
+    background: #34495e;
+    color: #ecf0f1;
+    border-radius: 8px;
+}
+
+footer em {
+    font-style: normal;
+}
